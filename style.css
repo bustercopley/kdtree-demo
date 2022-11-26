@@ -1,0 +1,34 @@
+/*
+ *  Copyright (c) 2022, Richard Copley <buster at buster dot me dot uk>
+ *
+ *  Copying and distribution of this file, with or without modification,
+ *  are permitted in any medium without royalty provided the copyright
+ *  notice and this notice are preserved.  This file is offered as-is,
+ *  without any warranty.
+ *
+ */
+
+body {
+  margin: 0;
+}
+
+.square {
+  position: relative;
+  width: 100vmin;
+  padding-bottom: 100vmin;
+  margin: auto;
+}
+
+.fit {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+}
